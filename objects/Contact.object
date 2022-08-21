@@ -377,7 +377,53 @@
         <label>Hobbies</label>
         <required>false</required>
         <trackFeedHistory>false</trackFeedHistory>
-        <type>TextArea</type>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Swimming</fullName>
+                    <default>false</default>
+                    <label>Swimming</label>
+                </value>
+                <value>
+                    <fullName>Hiking</fullName>
+                    <default>false</default>
+                    <label>Hiking</label>
+                </value>
+                <value>
+                    <fullName>Gaming</fullName>
+                    <default>false</default>
+                    <label>Gaming</label>
+                </value>
+                <value>
+                    <fullName>Reading</fullName>
+                    <default>false</default>
+                    <label>Reading</label>
+                </value>
+                <value>
+                    <fullName>Cycling</fullName>
+                    <default>false</default>
+                    <label>Cycling</label>
+                </value>
+                <value>
+                    <fullName>Running</fullName>
+                    <default>false</default>
+                    <label>Running</label>
+                </value>
+                <value>
+                    <fullName>Collecting Stuff</fullName>
+                    <default>false</default>
+                    <label>Collecting Stuff</label>
+                </value>
+                <value>
+                    <fullName>Others</fullName>
+                    <default>false</default>
+                    <label>Others</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
     </fields>
     <fields>
         <fullName>HomePhone</fullName>
