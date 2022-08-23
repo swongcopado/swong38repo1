@@ -1,4 +1,3 @@
 <aura:application >
-    <c:launchJIRA/>
-	
+    <c:launchJIRA/>	
 </aura:application>
