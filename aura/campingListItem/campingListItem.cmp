@@ -9,4 +9,8 @@
                          name="packaged"
                          checked="{!v.item.Packed__c}" />
     </p>
+    <p>
+    	<lightning:button label="Packed!"
+                         onclick="{!c.packItem}" />
+    </p>    
 </aura:component>
