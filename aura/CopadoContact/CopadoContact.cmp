@@ -11,11 +11,15 @@
         </p>
         <p class="slds-text-heading_medium slds-p-horizontal_small">
             Billing Address:<br/>
-            {!v.account.BillingStreet},{!v.account.BillingState},{!v.account.BillingPostalCode} 
+            {!v.account.BillingStreet},
+            {!v.account.BillingState},
+            {!v.account.BillingPostalCode} 
         </p>
         <p class="slds-text-heading_medium slds-p-horizontal_small">
             Shipping Address:<br/>
-            {!v.account.ShippingStreet},{!v.account.ShippingState},{!v.account.ShippingPostalCode}
+            {!v.account.ShippingStreet},
+            {!v.account.ShippingState},
+            {!v.account.ShippingPostalCode}
         </p>
     </lightning:card>
 </aura:component>
