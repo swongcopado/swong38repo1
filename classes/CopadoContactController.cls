@@ -1,5 +1,5 @@
 public with sharing class CopadoContactController {
-	@AuraEnabled
+    @AuraEnabled
     public static Account setCopadoDefaultContact(Account a) {
         
         if (a==null) { 
