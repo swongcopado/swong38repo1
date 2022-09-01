@@ -6,21 +6,25 @@ public with sharing class CopadoContactController {
             a = new Account(Name='Default');
         }
         
-        a.Name = 'Copado VIC';
+        a.Name = 'Copado Sydney';
         
-        a.Description = 'New Account in VIC Australia';
+        a.Description = 'New Copado Address in Sydney';
         
-        a.billingstreet = '198 Flinders St, Melbourne'; 
-        a.billingstate = 'VIC'; 
-        a.billingpostalcode ='3000'; 
+        a.BillingStreet = '11 York St'; 
+        a.BillingCity = 'Sydney';
+        a.BillingCountry = 'AU';
+        a.BillingState = 'NSW';
+        a.BillingPostalCode = '2000'; 
         
-        a.shippingstreet = '606 Infinite Ct'; 
-        a.shippingstate = 'VIC';
-        a.shippingpostalcode ='3080';
+        a.ShippingStreet = '11 York St'; 
+        a.ShippingCity = 'Sydney';
+        a.ShippingCountry = 'AU';
+        a.ShippingState = 'NSW';
+        a.ShippingPostalCode = '2000';
         
-        a.Phone='0322446789'; //VIC no
+        a.Phone='0220108888'; //NSW no
         
-        a.website = 'www.copado.com'; // New website
+        a.Website = 'www.copado.com'; // New website
         
         return a;
 
