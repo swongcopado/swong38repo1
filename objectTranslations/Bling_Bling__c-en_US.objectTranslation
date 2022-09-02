@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Bling Bling</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Bling Blings</value>
+    </caseValues>
+    <fields>
+        <label><!-- External URL --></label>
+        <name>External_URL__c</name>
+        <picklistValues>
+            <masterLabel>https://{!Environment.EXT_URL}</masterLabel>
+            <translation><!-- https://{!Environment.EXT_URL} --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>https://static.externalurl.com</masterLabel>
+            <translation><!-- https://static.externalurl.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>https://www.externalurl.com</masterLabel>
+            <translation><!-- https://www.externalurl.com --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason --></label>
+        <name>Reason__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
