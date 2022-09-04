@@ -1,4 +1,5 @@
 <aura:component controller="CopadoContactController">
+    <!-- Update this every time there is a new demo. Next Demo Date: 2nd Sept 2022 -->
     <aura:handler name="init" value="{!this}" action="{!c.doInit}"/>
     <aura:attribute name="account" type="Account" default="{'Name':'Default Name'}"/>
     <lightning:card title="{!v.account.Name}" iconName="standard:scan_card" class="slds-theme_success">
