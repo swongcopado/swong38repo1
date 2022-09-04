@@ -1,6 +1,7 @@
 ({
     doInit: function(component, event, helper) {
         // Create the action
+        // <!-- Update this every time there is a new demo. Next Demo Date: 2nd Sept 2022 -->
 		let account = component.get("v.account");
         let action = component.get("c.setCopadoDefaultContact");
         action.setParams({"account":account});
