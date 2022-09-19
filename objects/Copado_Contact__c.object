@@ -209,9 +209,14 @@ Next Demo Date: 2-Sept-2022</description>
                     <label>Windows</label>
                 </value>
                 <value>
-                    <fullName>Microsoft Office (Win/Mac)</fullName>
+                    <fullName>Microsoft Office 365 (Win/Mac)</fullName>
                     <default>false</default>
-                    <label>Microsoft Office (Win/Mac)</label>
+                    <label>Microsoft Office 365 (Win/Mac)</label>
+                </value>
+                <value>
+                    <fullName>Photos (Mac)</fullName>
+                    <default>false</default>
+                    <label>Photos (Mac)</label>
                 </value>
                 <value>
                     <fullName>Visual Studio Code (Win/Mac)</fullName>
@@ -245,7 +250,11 @@ Next Demo Date: 2-Sept-2022</description>
         <picklistValues>
             <picklist>Software__c</picklist>
             <values>
-                <fullName>Microsoft Office %28Win%2FMac%29</fullName>
+                <fullName>Microsoft Office 365 %28Win%2FMac%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Photos %28Mac%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -269,7 +278,7 @@ Next Demo Date: 2-Sept-2022</description>
         <picklistValues>
             <picklist>Software__c</picklist>
             <values>
-                <fullName>Microsoft Office %28Win%2FMac%29</fullName>
+                <fullName>Microsoft Office 365 %28Win%2FMac%29</fullName>
                 <default>false</default>
             </values>
             <values>
