@@ -184,14 +184,14 @@
                     <label>Windows</label>
                 </value>
                 <value>
-                    <fullName>Microsoft Office (Win/Mac)</fullName>
+                    <fullName>MS Office (Win/Mac)</fullName>
                     <default>false</default>
-                    <label>Microsoft Office (Win/Mac)</label>
+                    <label>MS Office (Win/Mac)</label>
                 </value>
                 <value>
-                    <fullName>Visual Studio Code (Win/Mac)</fullName>
+                    <fullName>VS Code (Win/Mac)</fullName>
                     <default>false</default>
-                    <label>Visual Studio Code (Win/Mac)</label>
+                    <label>VS Code (Win/Mac)</label>
                 </value>
                 <value>
                     <fullName>VMWare Workstation (Win)</fullName>
@@ -202,6 +202,11 @@
                     <fullName>VMWare Fusion (Mac)</fullName>
                     <default>false</default>
                     <label>VMWare Fusion (Mac)</label>
+                </value>
+                <value>
+                    <fullName>Microsoft Paint (Win)</fullName>
+                    <default>false</default>
+                    <label>Microsoft Paint (Win)</label>
                 </value>
             </valueSetDefinition>
         </valueSet>
@@ -220,7 +225,7 @@
         <picklistValues>
             <picklist>Software__c</picklist>
             <values>
-                <fullName>Microsoft Office %28Win%2FMac%29</fullName>
+                <fullName>MS Office %28Win%2FMac%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -228,7 +233,7 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Visual Studio Code %28Win%2FMac%29</fullName>
+                <fullName>VS Code %28Win%2FMac%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -244,7 +249,11 @@
         <picklistValues>
             <picklist>Software__c</picklist>
             <values>
-                <fullName>Microsoft Office %28Win%2FMac%29</fullName>
+                <fullName>MS Office %28Win%2FMac%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Microsoft Paint %28Win%29</fullName>
                 <default>false</default>
             </values>
             <values>
@@ -252,7 +261,7 @@
                 <default>false</default>
             </values>
             <values>
-                <fullName>Visual Studio Code %28Win%2FMac%29</fullName>
+                <fullName>VS Code %28Win%2FMac%29</fullName>
                 <default>false</default>
             </values>
             <values>
