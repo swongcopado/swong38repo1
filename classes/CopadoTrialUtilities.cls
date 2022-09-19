@@ -13,5 +13,7 @@ public class CopadoTrialUtilities {
             System.debug('DONE: ' + u.Id);
         }
     }
-
+    
+    // This section added in DEV1
+	String dummyLine = 'Hello DEV1';
 }
