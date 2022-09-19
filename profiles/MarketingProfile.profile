@@ -7108,6 +7108,16 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
+        <editable>false</editable>
+        <field>Copado_Contact__c.Description__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Copado_Contact__c.Software__c</field>
+        <readable>false</readable>
+    </fieldPermissions>
+    <fieldPermissions>
         <editable>true</editable>
         <field>Customer.CustomerStatusType</field>
         <readable>true</readable>
@@ -14921,6 +14931,17 @@
         <layout>ContractLineItem-Contract Line Item Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Copado_Contact__c-Copado Contact Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Copado_Contact__c-Copado Contact Layout</layout>
+        <recordType>Copado_Contact__c.Mac_Related</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Copado_Contact__c-Copado Contact Layout</layout>
+        <recordType>Copado_Contact__c.Windows_Related</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Crisis-Crisis Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -16384,6 +16405,16 @@
         <apexPage>copado__viewOrg</apexPage>
         <enabled>false</enabled>
     </pageAccesses>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Copado_Contact__c.Mac_Related</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>Copado_Contact__c.Windows_Related</recordType>
+        <visible>false</visible>
+    </recordTypeVisibilities>
     <recordTypeVisibilities>
         <default>false</default>
         <recordType>Idea.InternalIdeasIdeaRecordType</recordType>
