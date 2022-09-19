@@ -143,9 +143,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <description>Object created for Demo usage.
-Update the following date before the next demo:
-Next Demo Date: 2-Sept-2022</description>
+    <description>This is my demo object created for demo purposes.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -181,12 +179,113 @@ Next Demo Date: 2-Sept-2022</description>
         <trackTrending>false</trackTrending>
         <type>Date</type>
     </fields>
+    <fields>
+        <fullName>Description__c</fullName>
+        <externalId>false</externalId>
+        <label>Description</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Software__c</fullName>
+        <externalId>false</externalId>
+        <label>Software Installed</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>macOS</fullName>
+                    <default>false</default>
+                    <label>macOS</label>
+                </value>
+                <value>
+                    <fullName>Windows</fullName>
+                    <default>false</default>
+                    <label>Windows</label>
+                </value>
+                <value>
+                    <fullName>Microsoft Office (Win/Mac)</fullName>
+                    <default>false</default>
+                    <label>Microsoft Office (Win/Mac)</label>
+                </value>
+                <value>
+                    <fullName>Visual Studio Code (Win/Mac)</fullName>
+                    <default>false</default>
+                    <label>Visual Studio Code (Win/Mac)</label>
+                </value>
+                <value>
+                    <fullName>VMWare Workstation (Win)</fullName>
+                    <default>false</default>
+                    <label>VMWare Workstation (Win)</label>
+                </value>
+                <value>
+                    <fullName>VMWare Fusion (Mac)</fullName>
+                    <default>false</default>
+                    <label>VMWare Fusion (Mac)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>10</visibleLines>
+    </fields>
     <label>Copado Contact</label>
     <nameField>
-        <label>Demo Contact Name</label>
+        <label>Copado Contact Name</label>
         <type>Text</type>
     </nameField>
     <pluralLabel>Copado Contacts</pluralLabel>
+    <recordTypes>
+        <fullName>Mac_Related</fullName>
+        <active>true</active>
+        <label>Mac Related</label>
+        <picklistValues>
+            <picklist>Software__c</picklist>
+            <values>
+                <fullName>Microsoft Office %28Win%2FMac%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VMWare Fusion %28Mac%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Visual Studio Code %28Win%2FMac%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>macOS</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Windows_Related</fullName>
+        <active>true</active>
+        <label>Windows Related</label>
+        <picklistValues>
+            <picklist>Software__c</picklist>
+            <values>
+                <fullName>Microsoft Office %28Win%2FMac%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VMWare Workstation %28Win%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Visual Studio Code %28Win%2FMac%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Windows</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
     <searchLayouts />
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
