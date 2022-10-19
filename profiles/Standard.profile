@@ -182,7 +182,7 @@
     </applicationVisibilities>
     <classAccesses>
         <apexClass>CopadoTrialUtilities</apexClass>
-        <enabled>false</enabled>
+        <enabled>true</enabled>
     </classAccesses>
     <classAccesses>
         <apexClass>ExpensesController</apexClass>
